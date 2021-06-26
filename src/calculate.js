@@ -1,5 +1,5 @@
 export class Calculator {
-    constructor() {
-        //this.currentDate = currentDate
+    constructor(currentDate) {
+        this.currentDate = currentDate
     }
 }
