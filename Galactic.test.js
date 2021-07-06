@@ -30,8 +30,8 @@ describe('Galactic', function(){
     expect(galacticAge.getJptAge()).toEqual(296);
   });
 
-  test('returns life expectancy ', function(){
-    expect(galacticAge.lifeExpOnMer()).toEqual(59);
+  test('returns life expectancy on Mercury', function(){
+    expect(galacticAge.lifeExpOnMer()).toEqual(9);
 
     
   });

@@ -10,32 +10,39 @@ class Galactic{
   }
 
   getEarthAge() {
-      return this.earthAge
+    return this.earthAge
   }
 
   getMerAge() {
-      this.mercuryAge = this.earthAge*0.24;
-      return Math.floor(this.mercuryAge);
+    this.mercuryAge = this.earthAge*0.24;
+    return Math.floor(this.mercuryAge);
   }
 
   getVenusAge() {
-      this.venusAge = this.earthAge*0.62;
-      return Math.floor(this.venusAge);
+    this.venusAge = this.earthAge*0.62;
+    return Math.floor(this.venusAge);
   }
 
   getMarsAge() {
-      this.marsAge = this.earthAge*1.88;
-      return Math.floor(this.marsAge);
+    this.marsAge = this.earthAge*1.88;
+    return Math.floor(this.marsAge);
   }
 
   getJptAge() {
-      this.jupiterAge = this.earthAge*11.86;
-      return Math.floor(this.jupiterAge); 
+    this.jupiterAge = this.earthAge*11.86;
+    return Math.floor(this.jupiterAge); 
   }
 
   lifeExpOnMer() {
-
+    if(this.earthAge > this.averageLife) {
+        let surpassedYears = (this.earthAge-this.averageLife)*0.24;
+        return Math.floor(surpassedYears);
+    }
+        let remainingYears = this.averageLife - this.earthAge;
+        return Math.floor(remainingYears*0.24);
   }
+
+
 }
 
 module.exports = Galactic;
