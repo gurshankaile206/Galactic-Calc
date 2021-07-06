@@ -22,30 +22,30 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">90.48% </span>
+                <span class="strong">84.62% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>19/21</span>
+                <span class='fraction'>22/26</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
                 <span class="strong">50% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>1/2</span>
+                <span class='fraction'>2/4</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>7/7</span>
+                <span class='fraction'>8/8</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">90.48% </span>
+                <span class="strong">84.62% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>19/21</span>
+                <span class='fraction'>22/26</span>
             </div>
         
             
@@ -103,18 +103,38 @@
 <a name='L45'></a><a href='#L45'>45</a>
 <a name='L46'></a><a href='#L46'>46</a>
 <a name='L47'></a><a href='#L47'>47</a>
-<a name='L48'></a><a href='#L48'>48</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<a name='L48'></a><a href='#L48'>48</a>
+<a name='L49'></a><a href='#L49'>49</a>
+<a name='L50'></a><a href='#L50'>50</a>
+<a name='L51'></a><a href='#L51'>51</a>
+<a name='L52'></a><a href='#L52'>52</a>
+<a name='L53'></a><a href='#L53'>53</a>
+<a name='L54'></a><a href='#L54'>54</a>
+<a name='L55'></a><a href='#L55'>55</a>
+<a name='L56'></a><a href='#L56'>56</a>
+<a name='L57'></a><a href='#L57'>57</a>
+<a name='L58'></a><a href='#L58'>58</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">6x</span>
-<span class="cline-any cline-yes">6x</span>
-<span class="cline-any cline-yes">6x</span>
-<span class="cline-any cline-yes">6x</span>
-<span class="cline-any cline-yes">6x</span>
-<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-yes">7x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -130,12 +150,12 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -152,48 +172,58 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span></td><td class="text"><pre class="prettyprint lang-js">class Galactic{
 &nbsp;
-  constructor(earthAge) {
-    this.earthAge = earthAge
-    this.mercuryAge=0; //.24 earth years
-    this.venusAge=0; //.62 
-    this.marsAge=0;//1.88
-    this.jupiterAge=0; //11.86
-    this.averageLife = 65;
-  }
+constructor(earthAge) {
+this.earthAge = earthAge
+this.mercuryAge=0; //.24 earth years
+this.venusAge=0; //.62 
+this.marsAge=0;//1.88
+this.jupiterAge=0; //11.86
+this.averageLife = 65;
+}
 &nbsp;
-  getEarthAge() {
-    return this.earthAge
-  }
+getEarthAge() {
+return this.earthAge
+}
 &nbsp;
-  getMerAge() {
-    this.mercuryAge = this.earthAge*0.24;
-    return Math.floor(this.mercuryAge);
-  }
+getMerAge() {
+this.mercuryAge = this.earthAge*0.24;
+return Math.floor(this.mercuryAge);
+}
 &nbsp;
-  getVenusAge() {
-    this.venusAge = this.earthAge*0.62;
-    return Math.floor(this.venusAge);
-  }
+getVenusAge() {
+this.venusAge = this.earthAge*0.62;
+return Math.floor(this.venusAge);
+}
 &nbsp;
-  getMarsAge() {
-    this.marsAge = this.earthAge*1.88;
-    return Math.floor(this.marsAge);
-  }
+getMarsAge() {
+this.marsAge = this.earthAge*1.88;
+return Math.floor(this.marsAge);
+}
 &nbsp;
-  getJptAge() {
-    this.jupiterAge = this.earthAge*11.86;
-    return Math.floor(this.jupiterAge); 
-  }
+getJptAge() {
+this.jupiterAge = this.earthAge*11.86;
+return Math.floor(this.jupiterAge); 
+}
 &nbsp;
-  lifeExpOnMer() {
+lifeExpOnMer() {
+<span class="missing-if-branch" title="if path not taken" >I</span>if(this.earthAge &gt; this.averageLife) {
+    let surpassedYears = <span class="cstat-no" title="statement not covered" >(this.earthAge-this.averageLife)*0.24;</span>
+<span class="cstat-no" title="statement not covered" >    return Math.floor(surpassedYears);</span>
+} else { 
+    let remainingYears = this.averageLife - this.earthAge;
+    return Math.floor(remainingYears*0.24);
+}
+}
+&nbsp;
+lifeExpOnVenus() {
     <span class="missing-if-branch" title="if path not taken" >I</span>if(this.earthAge &gt; this.averageLife) {
-        let surpassedYears = <span class="cstat-no" title="statement not covered" >(this.earthAge-this.averageLife)*0.24;</span>
-<span class="cstat-no" title="statement not covered" >        return surpassedYears;</span>
-    }
+        let surpassedYears = <span class="cstat-no" title="statement not covered" >(this.earthAge - this.averageLife)*0.62;</span>
+<span class="cstat-no" title="statement not covered" >        return Math.floor(surpassedYears);</span>
+    } else {
         let remainingYears = this.averageLife - this.earthAge;
-        return remainingYears*0.24;
-  }
-&nbsp;
+        return Math.floor(remainingYears);
+    }
+}
 &nbsp;
 }
 &nbsp;
@@ -204,7 +234,7 @@ module.exports = Galactic;</pre></td></tr></table></pre>
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank">istanbul</a>
-                at Mon Jul 05 2021 20:11:06 GMT-0700 (Pacific Daylight Time)
+                at Mon Jul 05 2021 20:59:19 GMT-0700 (Pacific Daylight Time)
             </div>
         </div>
         <script src="prettify.js"></script>
