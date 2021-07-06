@@ -62,6 +62,9 @@ lifeExpOnMars() {
         return Math.floor(remainingYears*1.88);
     }
 }
+lifeExpOnJp() {
+    
+}
 
 }
 
