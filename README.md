@@ -6,6 +6,17 @@ The Galactic Calculator will take a user's age in Earth Years and convert the us
 
 ## Technologies Used
 
+* HTML
+* Javascript
+* Node Package Manager
+* Webpack
+* eslint
+* testing with Jest
+* Babelrc
+
+
+## Setup/Installation 
+
 * Download or clone the repository to your local machine
 * Navigate to the top level of your directory
 * Install Node Package Manager 
