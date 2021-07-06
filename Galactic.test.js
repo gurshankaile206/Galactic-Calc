@@ -15,18 +15,24 @@ describe('Galactic', function(){
   });
   
   test('returns Mercury Age', function(){
-    expect(galacticAge.getMerAge());
+    expect(galacticAge.getMerAge()).toEqual(6);
   });
 
   test('return Venus Age', function(){
-    expect(galacticAge.getVenusAge())
+    expect(galacticAge.getVenusAge()).toEqual(15)
   });
 
   test('return Mars Age', function(){
-    expect(galacticAge.getMarsAge())
+    expect(galacticAge.getMarsAge()).toEqual(47)
   });
 
   test('returns Jupiter Age', function(){
-    expect(galacticAge.getJptAge());
+    expect(galacticAge.getJptAge()).toEqual(296);
+  });
+
+  test('returns life expectancy ', function(){
+    expect(galacticAge.lifeExpOnMer()).toEqual(59);
+
+    
   });
 });

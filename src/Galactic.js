@@ -27,6 +27,15 @@ class Galactic{
       this.marsAge = this.earthAge*1.88;
       return Math.floor(this.marsAge);
   }
+
+  getJptAge() {
+      this.jupiterAge = this.earthAge*11.86;
+      return Math.floor(this.jupiterAge); 
+  }
+
+  lifeExpOnMer() {
+
+  }
 }
 
 module.exports = Galactic;
