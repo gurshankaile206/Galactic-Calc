@@ -9,13 +9,13 @@ The Galactic Calculator will take a user's age in Earth Years and convert the us
 * Download or clone the repository to your local machine
 * Navigate to the top level of your directory
 * Install Node Package Manager 
-* run "npm install" in your terminal
-* run "npm build" 
+* run "npm install" in your terminal 
+* run "npm build" in your terminal
 * run "npm run test" to test code
 
 ## Tests/Specifications 
 
-Test and Specs cand be found in the tests folder
+Test and Specs can be found in the tests folder
 
 ## Known Bugs
 
@@ -23,7 +23,7 @@ Test and Specs cand be found in the tests folder
 
 ## Future Goals 
 
-Build user interface
+* Build user interface
 
 ## Contact Information 
 
