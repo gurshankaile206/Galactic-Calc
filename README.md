@@ -43,3 +43,5 @@ If you have any questions or suggestions please contact us at gurshankaile206@gm
 ## License 
 
 This software is licensed under the MIT license
+
+Copyright (c) 2021 Gurshan Kaile
