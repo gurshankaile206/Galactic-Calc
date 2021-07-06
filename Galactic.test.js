@@ -1,17 +1,19 @@
-import {Age} from '../Galactic/src//Galactic.js';
+//import Galctic from './src/Galactic.js';
+const Galactic = require('./src/Galactic.js')
+
+describe('Galactic', function(){
+  let galacticAge;
 
 
-class Age {
-    constructor()
-  };
-
-  describe ('Age', () => {
+  beforeEach(function(){
+    galacticAge = new Galactic(25)
 
   });
 
-
-  test('Age Class should exist', () =>{
-      expect(Age).toBeDefined();
+  test('returns input earth age', function(){
+    expect(galacticAge.getEarthAge());
   });
-
   
+  
+  
+});
