@@ -41,5 +41,10 @@ describe('Galactic', function(){
   test('return surpassed years on Mercury', function() {
     expect(galacticSurpassedYears.lifeExpOnMer()).toEqual(1);
   });
-  
+  test('return surpassed years on Venus', function() {
+    expect(galacticSurpassedYears.lifeExpOnVenus()).toEqual(3);
+  });
+  //test('return surpassed years on Mars', function() {
+    //expect(galacticSurpassedYears.lifeExpOnMars()).toEqual(9);
+  //})
 });
