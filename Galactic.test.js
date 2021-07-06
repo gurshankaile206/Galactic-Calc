@@ -18,6 +18,9 @@ describe('Galactic', function(){
     expect(galacticAge.getMerAge());
   });
 
+  test('return Venus Age', function(){
+    expect(galacticAge.getVenusAge())
+  });
 
 
 });
