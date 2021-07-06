@@ -13,7 +13,10 @@ class Galactic{
       return this.earthAge
   }
 
-
+  getMerAge() {
+      this.mercuryAge = this.earthAge*0.24;
+      return Math.floor(this.mercuryAge);
+  }
 }
 
 module.exports = Galactic;

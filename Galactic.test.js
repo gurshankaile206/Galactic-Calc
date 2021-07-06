@@ -11,9 +11,13 @@ describe('Galactic', function(){
   });
 
   test('returns input earth age', function(){
-    expect(galacticAge.getEarthAge());
+    expect(galacticAge.getEarthAge()).toEqual(25);
   });
   
-  
-  
+  test('returns Mer Age', function(){
+    expect(galacticAge.getMerAge());
+  });
+
+
+
 });

@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1625532555657" clover="3.2.0">
-  <project timestamp="1625532555657" name="All files">
-    <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2" elements="10" coveredelements="10" complexity="0" loc="8" ncloc="8" packages="1" files="1" classes="1"/>
+<coverage generated="1625532881080" clover="3.2.0">
+  <project timestamp="1625532881080" name="All files">
+    <metrics statements="10" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2" elements="13" coveredelements="10" complexity="0" loc="10" ncloc="10" packages="1" files="1" classes="1"/>
     <file name="Galactic.js" path="/Users/gurshankaile/Desktop/Galactic/src/Galactic.js">
-      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-      <line num="4" count="1" type="stmt"/>
-      <line num="5" count="1" type="stmt"/>
-      <line num="6" count="1" type="stmt"/>
-      <line num="7" count="1" type="stmt"/>
-      <line num="8" count="1" type="stmt"/>
-      <line num="9" count="1" type="stmt"/>
+      <metrics statements="10" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
+      <line num="4" count="2" type="stmt"/>
+      <line num="5" count="2" type="stmt"/>
+      <line num="6" count="2" type="stmt"/>
+      <line num="7" count="2" type="stmt"/>
+      <line num="8" count="2" type="stmt"/>
+      <line num="9" count="2" type="stmt"/>
       <line num="13" count="1" type="stmt"/>
-      <line num="19" count="1" type="stmt"/>
+      <line num="17" count="0" type="stmt"/>
+      <line num="18" count="0" type="stmt"/>
+      <line num="22" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>
