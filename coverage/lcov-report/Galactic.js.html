@@ -22,16 +22,16 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">80.65% </span>
+                <span class="strong">77.78% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>25/31</span>
+                <span class='fraction'>28/36</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
                 <span class="strong">50% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>3/6</span>
+                <span class='fraction'>4/8</span>
             </div>
         
             
@@ -43,9 +43,9 @@
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">80.65% </span>
+                <span class="strong">77.78% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>25/31</span>
+                <span class='fraction'>28/36</span>
             </div>
         
             
@@ -54,7 +54,7 @@
             Press <em>n</em> or <em>j</em> to go to the next uncovered block, <em>b</em>, <em>p</em> or <em>k</em> for the previous block.
         </p>
     </div>
-    <div class='status-line high'></div>
+    <div class='status-line medium'></div>
     <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
@@ -126,15 +126,19 @@
 <a name='L68'></a><a href='#L68'>68</a>
 <a name='L69'></a><a href='#L69'>69</a>
 <a name='L70'></a><a href='#L70'>70</a>
-<a name='L71'></a><a href='#L71'>71</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<a name='L71'></a><a href='#L71'>71</a>
+<a name='L72'></a><a href='#L72'>72</a>
+<a name='L73'></a><a href='#L73'>73</a>
+<a name='L74'></a><a href='#L74'>74</a>
+<a name='L75'></a><a href='#L75'>75</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">9x</span>
-<span class="cline-any cline-yes">9x</span>
-<span class="cline-any cline-yes">9x</span>
-<span class="cline-any cline-yes">9x</span>
-<span class="cline-any cline-yes">9x</span>
-<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-yes">10x</span>
+<span class="cline-any cline-yes">10x</span>
+<span class="cline-any cline-yes">10x</span>
+<span class="cline-any cline-yes">10x</span>
+<span class="cline-any cline-yes">10x</span>
+<span class="cline-any cline-yes">10x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -171,6 +175,14 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-no">&nbsp;</span>
@@ -181,16 +193,12 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -198,73 +206,77 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span></td><td class="text"><pre class="prettyprint lang-js">class Galactic{
 &nbsp;
-constructor(earthAge) {
-this.earthAge = earthAge
-this.mercuryAge=0; //.24 earth years
-this.venusAge=0; //.62 
-this.marsAge=0;//1.88
-this.jupiterAge=0; //11.86
-this.averageLife = 65;
-}
+  constructor(earthAge) {
+    this.earthAge = earthAge
+    this.mercuryAge=0; //.24 earth years
+    this.venusAge=0; //.62 
+    this.marsAge=0;//1.88
+    this.jupiterAge=0; //11.86
+    this.averageLife = 65;
+  }
 &nbsp;
-getEarthAge() {
-return this.earthAge
-}
+  getEarthAge() {
+    return this.earthAge
+  }
 &nbsp;
-getMerAge() {
-this.mercuryAge = this.earthAge*0.24;
-return Math.floor(this.mercuryAge);
-}
+  getMerAge() {
+    this.mercuryAge = this.earthAge*0.24;
+    return Math.floor(this.mercuryAge);
+  }
 &nbsp;
-getVenusAge() {
-this.venusAge = this.earthAge*0.62;
-return Math.floor(this.venusAge);
-}
+  getVenusAge() {
+    this.venusAge = this.earthAge*0.62;
+    return Math.floor(this.venusAge);
+  }
 &nbsp;
-getMarsAge() {
-this.marsAge = this.earthAge*1.88;
-return Math.floor(this.marsAge);
-}
+  getMarsAge() {
+    this.marsAge = this.earthAge*1.88;
+    return Math.floor(this.marsAge);
+  }
 &nbsp;
-getJptAge() {
-this.jupiterAge = this.earthAge*11.86;
-return Math.floor(this.jupiterAge); 
-}
+  getJptAge() {
+    this.jupiterAge = this.earthAge*11.86;
+    return Math.floor(this.jupiterAge); 
+  }
 &nbsp;
-lifeExpOnMer() {
-<span class="missing-if-branch" title="if path not taken" >I</span>if(this.earthAge &gt; this.averageLife) {
-    let surpassedYears = <span class="cstat-no" title="statement not covered" >(this.earthAge-this.averageLife)*0.24;</span>
-<span class="cstat-no" title="statement not covered" >    return Math.floor(surpassedYears);</span>
-} else { 
-    let remainingYears = this.averageLife - this.earthAge;
-    return Math.floor(remainingYears*0.24);
-}
-}
-&nbsp;
-lifeExpOnVenus() {
+  lifeExpOnMer() {
     <span class="missing-if-branch" title="if path not taken" >I</span>if(this.earthAge &gt; this.averageLife) {
-        let surpassedYears = <span class="cstat-no" title="statement not covered" >(this.earthAge - this.averageLife)*0.62;</span>
+        let surpassedYears = <span class="cstat-no" title="statement not covered" >(this.earthAge - this.averageLife)*0.24;</span>
 <span class="cstat-no" title="statement not covered" >        return Math.floor(surpassedYears);</span>
     } else {
         let remainingYears = this.averageLife - this.earthAge;
-        return Math.floor(remainingYears*0.62);
+        return Math.floor(remainingYears*0.24);
     }
-}
-&nbsp;
-lifeExpOnMars() {
+  }
+  lifeExpOnVenus() {
+    <span class="missing-if-branch" title="if path not taken" >I</span>if(this.earthAge &gt; this.averageLife) {
+        let surpassedYears = <span class="cstat-no" title="statement not covered" >(this.earthAge - this.averageLife)*.62;</span>
+<span class="cstat-no" title="statement not covered" >        return Math.floor(surpassedYears);</span>
+    } else {
+        let remainingYears = this.averageLife - this.earthAge;
+        return Math.floor(remainingYears*.62);
+    }
+  }
+  lifeExpOnMars() {
     <span class="missing-if-branch" title="if path not taken" >I</span>if(this.earthAge &gt; this.averageLife) {
         let surpassedYears = <span class="cstat-no" title="statement not covered" >(this.earthAge - this.averageLife)*1.88;</span>
-<span class="cstat-no" title="statement not covered" >        return Math.floor(surpassedYears); </span>
+<span class="cstat-no" title="statement not covered" >        return Math.floor(surpassedYears);</span>
     } else {
-        let remainingYears = (this.averageLife - this.earthAge);
+        let remainingYears = this.averageLife - this.earthAge;
         return Math.floor(remainingYears*1.88);
     }
-}
-lifeExpOnJp() {
-    
-}
+  }
+  lifeExpOnJp() {
+    <span class="missing-if-branch" title="if path not taken" >I</span>if(this.earthAge &gt; this.averageLife) {
+        let surpassedYearsOnJp = <span class="cstat-no" title="statement not covered" >(this.earthAge - this.averageLife)*11.86;</span>
+<span class="cstat-no" title="statement not covered" >        return Math.floor(surpassedYearsOnJp);</span>
+    } else {
+        let remainingYears = this.averageLife - this.earthAge;
+        return Math.floor(remainingYears*11.86);
+    }
+  }
 &nbsp;
-}
+};
 &nbsp;
 module.exports = Galactic;</pre></td></tr></table></pre>
 
@@ -273,7 +285,7 @@ module.exports = Galactic;</pre></td></tr></table></pre>
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank">istanbul</a>
-                at Mon Jul 05 2021 21:08:49 GMT-0700 (Pacific Daylight Time)
+                at Mon Jul 05 2021 22:00:27 GMT-0700 (Pacific Daylight Time)
             </div>
         </div>
         <script src="prettify.js"></script>
