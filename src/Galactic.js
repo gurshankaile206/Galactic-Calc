@@ -22,6 +22,11 @@ class Galactic{
       this.venusAge = this.earthAge*0.62;
       return Math.floor(this.venusAge);
   }
+
+  getMarsAge() {
+      this.marsAge = this.earthAge*1.88;
+      return Math.floor(this.marsAge);
+  }
 }
 
 module.exports = Galactic;

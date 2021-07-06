@@ -25,4 +25,8 @@ describe('Galactic', function(){
   test('return Mars Age', function(){
     expect(galacticAge.getMarsAge())
   });
+
+  test('returns Jupiter Age', function(){
+    expect(galacticAge.getJptAge());
+  });
 });
