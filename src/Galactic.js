@@ -53,6 +53,16 @@ lifeExpOnVenus() {
     }
 }
 
+lifeExpOnMars() {
+    if(this.earthAge > this.averageLife) {
+        let surpassedYears = (this.earthAge - this.averageLife)*1.88;
+        return Math.floor(surpassedYears); 
+    } else {
+        let remainingYears = (this.averageLife - this.earthAge);
+        return Math.floor(remainingYears*1.88);
+    }
+}
+
 }
 
 module.exports = Galactic;

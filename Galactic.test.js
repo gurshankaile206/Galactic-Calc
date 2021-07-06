@@ -37,4 +37,8 @@ describe('Galactic', function(){
   test('return life expectancy on Venus', function(){
     expect(galacticAge.lifeExpOnVenus()).toEqual(24)
   }); 
+
+  test('return life expectancy on Mars', function(){
+    expect(galacticAge.lifeExpOnMars()).toEqual(75);
+  })
 });
