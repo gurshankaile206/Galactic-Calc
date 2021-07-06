@@ -14,7 +14,7 @@ describe('Galactic', function(){
     expect(galacticAge.getEarthAge()).toEqual(25);
   });
   
-  test('returns Mer Age', function(){
+  test('returns Mercury Age', function(){
     expect(galacticAge.getMerAge());
   });
 
@@ -22,5 +22,7 @@ describe('Galactic', function(){
     expect(galacticAge.getVenusAge())
   });
 
-
+  test('return Mars Age', function(){
+    expect(galacticAge.getMarsAge())
+  });
 });
