@@ -3,10 +3,12 @@ const Galactic = require('../src/Galactic.js')
 
 describe('Galactic', function(){
   let galacticAge;
+  let galacticSurpassedYears;
 
 
   beforeEach(function(){
     galacticAge = new Galactic(25)
+    galacticSurpassedYears = new Galactic(70)
 
   });
   test('returns input earth age', function(){
@@ -36,4 +38,8 @@ describe('Galactic', function(){
   test('return life expectancy on Jupiter', function() {
     expect(galacticAge.lifeExpOnJp()).toEqual(474);
   });
+  test('return surpassed years on Mercury', function() {
+    expect(galacticSurpassedYears.lifeExpOnMer()).toEqual(1);
+  });
+  
 });
