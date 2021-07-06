@@ -46,5 +46,8 @@ describe('Galactic', function(){
   });
   test('return surpassed years on Mars', function() {
     expect(galacticSurpassedYears.lifeExpOnMars()).toEqual(9);
-  })
+  });
+  test('return surpassed years on Jupiter', function() {
+    expect(galacticSurpassedYears.lifeExpOnJp()).toEqual(59);
+  });
 });
